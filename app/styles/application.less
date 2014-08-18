@@ -1,0 +1,90 @@
+@import '_grid';
+
+.page-heading {
+	font-size     : 3.5rem;
+	font-weight   : 100;
+	color         : #808b9c;
+	border-bottom : 1px solid #e4e4e4;
+	margin        : -28px -18px 18px -18px;
+	padding       : 20px 18px 8px 18px;
+}
+
+ .form-container > label {
+ 	padding: 0 8px;
+  flex-basis: 41.66666666666667% !important;
+}
+
+.form-container > .control {
+  flex-basis: 58.333333333333336% !important;
+  text-align: left;
+}
+
+.form-control {
+   padding-left: 8px;
+   padding-right: 8px;
+}
+
+.select2-container {
+  background-color: transparent;
+  .select2-choice {
+    padding: 4px 8px;
+    > .select2-chosen {
+      margin-right: 16px;
+    }
+  }
+}
+
+@rte-task-panel-width: 300px;
+
+#rte-task-panel {
+  width: @rte-task-panel-width;
+  height: calc(~"100% - 144px");
+  box-shadow:  0px 3px 3px 0px rgba(50, 50, 50, 0.25);
+  width: @rte-task-panel-width;
+}
+
+#header-date-panel {
+  margin-top: 8px;
+  margin-right: -160px;
+}
+
+#content-wrapper {
+  padding: 64px 12px 12px;
+}
+
+#rte {
+  label {
+     margin-bottom: 2px;
+  }
+  .form-group {
+    margin-bottom: 4px;
+  }
+
+  .accordion-toggle {
+    padding: 6px 25px 6px 20px;
+  }
+
+  .panel-heading { 
+    padding: 8px 12px 6px 12px;
+  }
+
+  min-height: 400px;
+  min-width: 600px;
+}
+
+#rte-header {
+  margin-left: @rte-task-panel-width + 8px;
+
+  .panel-heading {
+    padding: 0;
+  }
+  .panel-body {
+    background-color: #D9E8F5;
+  }
+}
+
+.theme-default #main-navbar .navbar-brand div, .theme-default .demo-logo {
+  background-color: transparent;  
+}
+
+

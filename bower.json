@@ -1,0 +1,34 @@
+{
+  "name": "your-app",
+  "version": "0.0.1",
+  "main": "public/app.js",
+  "dependencies": {
+    "react": "~0.11.*",
+    "jquery": "~2.*",
+    "rxjs": "*",
+    "bootstrap": "~3.*",
+    "react-router-component": "*",
+    "velocity": "*",
+    "store-js": "*"
+  },
+  "overrides": {
+    "rxjs": {
+      "main": [
+        "dist/rx.compat.js",
+        "dist/rx.binding.js",
+        "dist/rx.time.js",
+        "dist/rx.async.js"
+      ]
+    },
+    "react": {
+      "main": "react-with-addons.js"
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/js/bootstrap.js",
+        "less/bootstrap.less"
+       ]
+    }
+  },
+  "devDependencies": {}
+}
